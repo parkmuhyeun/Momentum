@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">                                                <!-- css => style.css -->
+    <title>Momentum</title>                                                                     <!-- 홈페이지 Title -->
+</head>
+<body>
+
+    <div id="clock">                                                                            <!-- 시계 Part -->
+        <h1>00:00</h1>
+    </div>
+
+    <div id="searchingPart">                                                                    <!-- Google 검색Part -->
+        <form id="searchForm">
+            <img class="googleIcon" src="img/google_icon.png"/>
+            <input class= "searchInput" type="text" placeholder="Google Search" autofoucs/>
+        </form>
+    </div>
+
+    <div id="greetingPart">                                                                     <!-- Greeting Part -->
+        <form class="hidden" id="login-form">
+            <input 
+                required
+                maxlength="15"
+                type="text" 
+                placeholder="What is your name?"
+                />
+            <input type="submit" value="Log In" />
+        </form>
+        <h2 class="hidden" id="greeting"></h2>
+    </div>
+
+    <span id="todo-btn">✔ToDoList</span>                                                         <!-- ToDoList Part -->
+    <div class="todo">
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter" required/>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+
+    <div id="quote">                                                                              <!-- Quote Part -->
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id="weather">                                                                            <!-- Weather Part -->
+        <span></span>
+        <span></span>
+    </div>
+
+    <script src="js/greetings.js"></script>                                                        <!-- Js Import -->
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/searching.js"></script>
+</html>
