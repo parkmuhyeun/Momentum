@@ -1,5 +1,5 @@
 # Momentum
-JS로 만든 Momentum
+Momentum made of Js 
 
 ![Screenshot1](./Screenshot/s1.PNG)
 
@@ -8,7 +8,7 @@ JS로 만든 Momentum
 ![Screenshot3](./Screenshot/s3.PNG)
 
 
-기능
+Funtion
 - Clock
 - Google Search
 - Greeting
@@ -18,6 +18,6 @@ JS로 만든 Momentum
 - Random Background
 
 
-실행 : https://parkmuhyeun.github.io/Momentum/
+ Run : https://parkmuhyeun.github.io/Momentum/
 
-*오른쪽 아래 ToDoList 클릭하면 To Do List기능 사용가능
+*If You Click ToDoList at the bottom right, ToDoList Function is available
